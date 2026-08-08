@@ -42,8 +42,8 @@ function registerStudent(name, age) {
     }
 }
 
-// registerStudent("Bola Okafor", 22); // Student registered: Bola Okafor, Age: 22
-// registerStudent("", 22);            // Registration failed: Name cannot be empty!
+registerStudent("Bola Okafor", 22); // Student registered: Bola Okafor, Age: 22
+registerStudent("", 22);            // Registration failed: Name cannot be empty!
 registerStudent("Kemi", 12);        // Registration failed: Age must be between 16 and 60.
 
 
