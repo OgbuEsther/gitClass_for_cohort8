@@ -42,4 +42,20 @@ let hisRole = employee.role;
 let hisSalary = employee.salary;
 let hisCity = employee.city;
 
-const { name, role, salary, city } = employee;
+const { name:userName, role:job, salary, city } = employee;
+
+let DNA = {
+    gender : "XY",
+    complexion : "Dark"
+}
+
+let offSpring = {
+    ...DNA,
+    name : "OGBU UZOMA ESTHER",
+    age : 30
+}
+console.log(offSpring);
+
+console.log(Object.keys(offSpring));
+console.log(Object.values(offSpring));
+console.log(Object.entries(offSpring));
